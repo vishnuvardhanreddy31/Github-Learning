@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4 bg-primary text-white rounded p-2 ">COMPANY LOGO</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link hover-underline-animation "
+            aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link hover-underline-animation ">About</a></li>
+        <li class="nav-item"><a href="careers.html" class="nav-link hover-underline-animation ">Careers</a></li>
+        <li class="nav-item"><a href="stories.html" class="nav-link hover-underline-animation ">Stories</a></li>
+        <li class="nav-item"><a href="tech.html" class="nav-link hover-underline-animation ">Tech</a></li>
+      </ul>
+    </header>
+  </div>
+  <div class="container-fluid ">
+    <div class="modal fade" id="m" data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bgr text-white">
+          <div class="modal-header text-center">
+            <h1 class="text-center text-2">Profile Information</h1>
+            <button class="btn-close btn-danger" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-sm-4 d-flex align-items-center">
+                <img id="profile-image" src="" alt="" class="w-100 shadow rounded">
+              </div>
+              <div class="col-sm-8">
+                <h1 style="font-size: 1.6rem;">Name/Email</h1>
+                <p class="text-white" style="font-size: 1.5rem;"><span class="text-white" id="username"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <p class="quote">"The only way to do great work is to love what you do." - Steve Jobs</p>
+            <button class="btn btn-danger"> <a href="" class="nav-link hover-underline-animation text-white"
+                id="logout">Log Out</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main container" style=" font-family: Forum;">
+      <div class="card mx-auto mt-5 shadow mb-5" style="width:100%;">
+        <img src="./images/aboutus.jpg" alt="" class="w-100 h-100">
+
+
+        <div class="card-body">
+          <h1 class="text-info">Welcome to my website! I'm glad you found us.</h1>
+          <p class="container lead1 text-start" style=" font-family: Forum;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex illum voluptatum eaque obcaecati inventore
+            mollitia ut, nisi voluptates maiores, fugit minima totam expedita dolore ipsum cupiditate. Accusamus ducimus
+            ipsam placeat assumenda, saepe mollitia officia dicta, dolorum amet sequi dignissimos expedita alias cumque
+            similique consequuntur quam veritatis adipisci perspiciatis! Ex magnam pariatur praesentium sit. Eos,
+            voluptatibus?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, numquam minima maxime, culpa adipisci
+            similique saepe placeat doloremque assumenda amet tempora, voluptatem dicta illum illo cupiditate. Corrupti
+            dolorem sint, quod eius quae earum excepturi nostrum sapiente facilis labore dolore velit cupiditate ea
+            praesentium accusantium officiis voluptas explicabo aliquid laboriosam cumque quibusdam veritatis ratione
+            veniam! Optio ipsa dolor odio necessitatibus laborum!
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
